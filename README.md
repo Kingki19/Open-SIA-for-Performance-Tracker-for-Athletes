@@ -7,3 +7,4 @@
 This application was created to monitor national athletes, especially those at UNNES. It's still in prototyping. We will use Streamlit framework.
 
 **Link to this apps**:
+[https://performance-tracker-for-athletes.streamlit.app/](https://performance-tracker-for-athletes.streamlit.app/)
