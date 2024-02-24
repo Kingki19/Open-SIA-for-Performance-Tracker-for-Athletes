@@ -8,7 +8,7 @@ our_team = """
 """
 reason = '''
 We made this app to finish our last project on software development and help ms. Wiga to make app for athletes.
-''
+'''
 
 st.header('Our team', divider=True)
 st.markdown(our_team)
