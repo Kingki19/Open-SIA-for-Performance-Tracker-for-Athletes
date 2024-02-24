@@ -6,10 +6,11 @@ data_profil_col, input_col, gambar_lokasi_sentra_col = st.columns(3)
 fasilitas_col, preview_kegiatan_col, monitoring_evaluation_col = st.columns(3)
 
 def create_container_in_column(col, label_button, image_link):
+  width_img = 150
   with col:
     with st.container(border=True, height=150):
       st.button(label=label_button, use_container_width=True)
-      st.image(image_link)
+      st.image(image_link, width = width_img)
 
 # with data_profil_col:
 #   with st.container(border=True):
