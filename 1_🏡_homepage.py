@@ -17,7 +17,7 @@ def create_container_in_column(col, image_link, label_button):
 #     st.write('Tekan ini untuk masuk ke data profil')
 
 create_container_in_column(data_profil_col, 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 'data_profil')
-create_container_in_column(input_col, 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 'input')
+create_container_in_column(input_col, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXmuJl-w2TCqnlKGBiVLB4StSjZBu4xa58A&usqp=CAU', 'input')
 create_container_in_column(gambar_lokasi_sentra_col, 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 'gambar_lokasi_sentra')
 create_container_in_column(fasilitas_col, 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 'fasilitas')
 create_container_in_column(preview_kegiatan_col, 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png', 'preview_kegiatan')
