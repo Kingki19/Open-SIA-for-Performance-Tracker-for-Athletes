@@ -7,7 +7,7 @@ fasilitas_col, preview_kegiatan_col, monitoring_evaluation_col = st.columns(3)
 
 def create_container_in_column(col, image_link, label_button):
   with col:
-    with st.container(border=True):
+    with st.container(border=True, height=120):
       st.image(image_link)
       st.button(label=label_button, use_container_width=True)
 
