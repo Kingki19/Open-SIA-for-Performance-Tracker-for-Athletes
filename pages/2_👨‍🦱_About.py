@@ -16,9 +16,9 @@ We made this app to finish our last project on software development and help ms.
 st.markdown(reason)
 
 st.header('Contributors', divider=True)
-contributors_html = '''
-<a href="https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes" />
-</a>
-'''
-st.markdown(contributors_html, unsafe_allow_html=True)
+# contributors_html = '''
+# <a href="https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors">
+#   <img src="https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes" />
+# </a>
+# '''
+# st.markdown(contributors_html, unsafe_allow_html=True)
