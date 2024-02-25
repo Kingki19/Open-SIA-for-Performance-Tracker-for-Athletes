@@ -23,7 +23,7 @@ def create_container_in_column(col, label_button, label_explanation):
 
 val_button = 'kau belum menekan tombol apapun!'
 if create_container_in_column(profile_data_col, 'profiles data', 'Contain profiles data from athletes, coaches, and others'):
-  val_button = 'profiles data'
+  st.switch_page("pages/3_👥_Profiles Data.py")
 if create_container_in_column(input__data_col, 'input data', 'Input athlete performance data every day here'):
   val_button = 'input data'
 if create_container_in_column(image_center_location_col, 'image of center location', 'I don\'t know what is this'):
