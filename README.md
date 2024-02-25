@@ -7,7 +7,7 @@
 This application was created to monitor national athletes, especially those at UNNES. It's still in prototyping. We will use Streamlit framework.
 
 **Link to this apps**:
-[https://performance-tracker-for-athletes.streamlit.app/](https://performance-tracker-for-athletes.streamlit.app/)
+[https://open-sia-performance-tracker-for-athletes.streamlit.app/](https://open-sia-performance-tracker-for-athletes.streamlit.app/)
 
 > The reason you see a lot of commits is that I (the owner) do a lot of live code on Github directly. This is inefficient and not good for collaboration. I would like to learn how to code in local. But my laptop suck.
 
