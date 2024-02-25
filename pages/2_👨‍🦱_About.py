@@ -17,6 +17,6 @@ st.markdown(reason)
 
 st.header('Contributors', divider=True)
 contributors_html = """
-[![contributors](https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes)](https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors
+[![contributors](https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes)](https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors)
 """
 st.markdown(contributors_html)
