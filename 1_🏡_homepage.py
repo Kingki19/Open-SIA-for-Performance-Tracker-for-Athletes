@@ -21,7 +21,7 @@ def create_container_in_column(col, label_button, label_explanation):
         st.write(label_explanation)
         
     
-create_container_in_column(profiles_data_col, 'profiles data', 'Contain profiles data from athletes, coaches, and others')
+create_container_in_column(profile_data_col, 'profiles data', 'Contain profiles data from athletes, coaches, and others')
 create_container_in_column(input__data_col, 'input data', 'Input athlete performance data every day here')
 create_container_in_column(image_center_location_col, 'image of center location', 'I don\'t know what is this')
 create_container_in_column(facilities_col, 'facilities', 'facilities provided by the relevant training site (university)')
