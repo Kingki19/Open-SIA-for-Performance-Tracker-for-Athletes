@@ -8,3 +8,9 @@ This application was created to monitor national athletes, especially those at U
 
 **Link to this apps**:
 [https://performance-tracker-for-athletes.streamlit.app/](https://performance-tracker-for-athletes.streamlit.app/)
+
+# Contributors
+
+<a href="https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes" />
+</a>
