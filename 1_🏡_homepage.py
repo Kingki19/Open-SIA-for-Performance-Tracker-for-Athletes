@@ -35,6 +35,6 @@ if create_container_in_column(activities_preview_col, 'activities preview', 'Pla
 if create_container_in_column(monitoring_evaluation_col, 'monitoring evaluation', 'Monitor athletes\'s performance based on their daily data and competition results'):
   val_button = 'monitoring evaluation'
 
-st.write(f'Kau telah menekan tombol: {val_button}')
+st.markdown(f'Kau telah menekan tombol: {val_button}')
 
 st.caption('it just a prototype, made to finish final project of software development course')
