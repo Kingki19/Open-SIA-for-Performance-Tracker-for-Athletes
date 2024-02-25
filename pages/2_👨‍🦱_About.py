@@ -21,4 +21,7 @@ st.header('Contributors', divider=True)
 #   <img src="https://contrib.rocks/image?repo=Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes" />
 # </a>
 # '''
-# st.markdown(contributors_html, unsafe_allow_html=True)
+contributors_html = '''
+<h2> test </h2>
+'''
+st.markdown(contributors_html, unsafe_allow_html=True)
