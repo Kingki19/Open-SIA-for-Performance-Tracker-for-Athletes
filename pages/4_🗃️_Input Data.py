@@ -1,2 +1,2 @@
 import streamlit as st
-st.title('Input Data Menu')
+st.title('🗃️ Input Data Menu')
