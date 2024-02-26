@@ -22,7 +22,7 @@ def create_container_in_column(col, label_button, label_explanation):
                 st.write(label_explanation)
 
 val_button = 'kau belum menekan tombol apapun!'
-if create_container_in_column(profile_data_col, 'profiles data', 'Contain profiles data from athletes, coaches, and others'):
+if create_container_in_column(profile_data_col, '👤 profiles data', 'Contain profiles data from athletes, coaches, and others'):
   st.switch_page("pages/3_👥_Profiles Data.py")
 if create_container_in_column(input__data_col, 'input data', 'Input athlete performance data every day here'):
   val_button = 'input data'
