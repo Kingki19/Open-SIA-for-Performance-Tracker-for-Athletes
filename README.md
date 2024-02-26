@@ -11,6 +11,11 @@ This application was created to monitor national athletes, especially those at U
 
 > The reason you see a lot of commits is that I (the owner) do a lot of live code on Github directly. This is inefficient and not good for collaboration. I would like to learn how to code in local. But my laptop suck.
 
+**Technologies**:
+- Python
+- Streamlit framework
+- _database still don't know_
+
 # Contributors
 
 <a href="https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors">
