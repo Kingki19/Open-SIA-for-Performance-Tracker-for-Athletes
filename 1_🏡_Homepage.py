@@ -3,7 +3,7 @@ import streamlit as st
 university = 'UNNES'
 st.title(f'Open SIA (System Information Apps) Performance Tracker for Athletes - {university}')
 
-profile_data_col, input__data_col, image_center_location_col = st.columns(3)
+profile_data_col, input_data_col, image_center_location_col = st.columns(3)
 facilities_col, activities_preview_col, monitoring_evaluation_col = st.columns(3)
 
 # Function to create container in column that contain button to move to another pages
@@ -24,7 +24,7 @@ def create_container_in_column(col, label_button, label_explanation):
 val_button = 'kau belum menekan tombol apapun!'
 if create_container_in_column(profile_data_col, '👤 profiles data', 'Contain profiles data from athletes, coaches, and others'):
   st.switch_page("pages/3_👥_Profiles Data.py")
-if create_container_in_column(input__data_col, '🗃️ input data', 'Input athlete performance data every day here'):
+if create_container_in_column(input_data_col, '🗃️ input data', 'Input athlete performance data every day here'):
   val_button = 'input data'
 if create_container_in_column(image_center_location_col, '🗺️ image of center location', 'I don\'t know what is this'):
   val_button = 'image of center location'
