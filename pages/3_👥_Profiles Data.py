@@ -1,2 +1,2 @@
 import streamlit as st
-st.title('Profiles Data')
+st.title('👥 Profiles Data Menu')
