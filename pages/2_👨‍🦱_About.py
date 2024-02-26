@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("👨‍🦱 About")
 st.header('Our core team', divider=True)
 our_team = """
 - Muhammad Rizqi = Project Manager, Project Initiator (who manage and own apps)
