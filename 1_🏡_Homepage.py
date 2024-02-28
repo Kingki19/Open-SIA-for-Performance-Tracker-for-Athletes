@@ -10,6 +10,8 @@ university = 'UNNES'
 with title_col:
     st.title(f'Open SIA (System Information Apps) Performance Tracker for Athletes - {university}')
 
+st.divider()
+
 # Function to create container in column that contain button to move to another pages
 def create_container_in_column(col, label_button, label_explanation):
     '''
