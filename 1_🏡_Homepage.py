@@ -1,10 +1,10 @@
 import streamlit as st
 
-logo_col, title_col = st.columns([1, 5])
+logo_col, title_col = st.columns([1, 4])
 
 with logo_col:
     link_logo = 'https://static.vecteezy.com/system/resources/previews/009/096/945/original/monitor-screen-computer-with-football-sports-illustration-logo-design-vector.jpg'
-    st.image(link_logo, width=100)
+    st.image(link_logo)
 
 university = 'UNNES'
 with title_col:
