@@ -1,10 +1,13 @@
 import streamlit as st
 
-university = 'UNNES'
-st.title(f'Open SIA (System Information Apps) Performance Tracker for Athletes - {university}')
+logo_col, title_col = st.columns(2)
 
-profile_data_col, input_data_col, image_center_location_col = st.columns(3)
-facilities_col, activities_preview_col, monitoring_evaluation_col = st.columns(3)
+with logo_col:
+    st.image('https://static.vecteezy.com/system/resources/previews/009/096/945/original/monitor-screen-computer-with-football-sports-illustration-logo-design-vector.jpg')
+
+university = 'UNNES'
+with title_col:
+    st.title(f'Open SIA (System Information Apps) Performance Tracker for Athletes - {university}')
 
 # Function to create container in column that contain button to move to another pages
 def create_container_in_column(col, label_button, label_explanation):
@@ -21,11 +24,13 @@ def create_container_in_column(col, label_button, label_explanation):
             with st.expander("See explanation:"):
                 st.write(label_explanation)
 
-val_button = 'kau belum menekan tombol apapun!'
+profile_data_col, input_data_col, image_center_location_col = st.columns(3)
+facilities_col, activities_preview_col, monitoring_evaluation_col = st.columns(3)
+
 if create_container_in_column(profile_data_col, '👤 profiles data', 'Contain profiles data from athletes, coaches, and others'):
   st.switch_page("pages/3_👥_Profiles Data.py")
 if create_container_in_column(input_data_col, '🗃️ input data', 'Input athlete performance data every day here'):
-  val_button = 'input data'
+  st.switch_page("pages/")
 if create_container_in_column(image_center_location_col, '🗺️ image of center location', 'I don\'t know what is this'):
   val_button = 'image of center location'
 if create_container_in_column(facilities_col, '⛳ facilities', 'facilities provided by the relevant training site (university)'):
