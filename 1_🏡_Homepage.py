@@ -1,6 +1,6 @@
 import streamlit as st
 
-logo_col, title_col = st.columns([1, 4])
+logo_col, title_col = st.columns([1, 2])
 
 with logo_col:
     link_logo = 'images/Athlete Sports Logo.png'
