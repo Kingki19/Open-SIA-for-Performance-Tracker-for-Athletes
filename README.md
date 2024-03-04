@@ -16,6 +16,10 @@ This application was created to monitor national athletes, especially those at U
 - Streamlit framework
 - _database still don't know_
 
+# How to contribute
+- Clone this repo and develop by yourself. Also if you want to add the new feature, please branch this repo so i can see it.
+- Add issues or new feature suggestions
+
 # Contributors
 
 <a href="https://github.com/Kingki19/Open-SIA-for-Performance-Tracker-for-Athletes/graphs/contributors">
